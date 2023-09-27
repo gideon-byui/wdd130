@@ -29,7 +29,7 @@ main img{
 p {padding: 0;}
 
 aside {
-    width: 20rem ; 
+    width: 20em ; 
     text-align: center;
     position: relative;
      }
@@ -47,6 +47,7 @@ footer{
     margin-top: 1em; 
     border-top: 1px solid #000;
     text-align: center;
+    padding: 0.6em;
    }
 
 /*Class Selectors*/
