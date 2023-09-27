@@ -37,7 +37,7 @@ aside {
 
 aside h2 {
   position: absolute;
-  top: 1px; 
+  top: 1em; 
   left: 79px;
   font-size:medium ;
 } 
