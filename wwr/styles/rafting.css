@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  } 
+
+
+:root {
+    --primary-color: #14213d;
+    --secondary-color:#fca311;
+    --accent1-color: #e5e5e5;
+    --accent2-color: #ffffff;
+  
+    --heading-font: 'OpenSans', Roboto;
+    --paragraph-font: 'Roboto', OpenSans;
+  
+    --nav-background-color: #14213d;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #fca311;
+    --nav-hover-background-color: #14213d;
+  }
+
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1.2rem;
+    }
+
+   .article {
+    position: absolute;
+      }
+
+    
+
+   h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+     
+  .hero {
+      position: relative;
+      }
+
+   
+ 
