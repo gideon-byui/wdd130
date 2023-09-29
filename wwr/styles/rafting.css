@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300;400&display=swap');
 
 
 *{ 
@@ -8,14 +8,15 @@
   } 
 
 
+
 :root {
     --primary-color: #14213d;
     --secondary-color:#fca311;
     --accent1-color: #e5e5e5;
     --accent2-color: #ffffff;
   
-    --heading-font: 'OpenSans', Roboto;
-    --paragraph-font: 'Roboto', OpenSans;
+    --heading-font: 'Quicksand';
+    --paragraph-font: 'Roboto';
   
     --nav-background-color: #14213d;
     --nav-link-color: #ffffff;
@@ -27,20 +28,18 @@
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-  }
+    background-color:var(--accent2-color);
+  } 
 
-  h1 {
+     
+
+    h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
     padding: 1.2rem;
     }
 
-   .article {
-    position: absolute;
-      }
-
-    
 
    h2 {
     font-family: var(--heading-font);
@@ -51,5 +50,41 @@
       position: relative;
       }
 
+     article {
+      position: absolute;
+      top: 40px;
+      right: 15px;
+      margin-left: 90px;
+      margin-top: 120px;
+      text-align: justify;
+      background-color: #14213d;
+      padding: 20px;
+      opacity: 0.8;
+         }
+
+    .art h1 {
+      color: var(--accent2-color);
+      position: absolute;
+      right: 10px;
+      left: 20px;
+      bottom: 150px;
+      background-color: black ;
+      padding: 10px;
+      margin-bottom: 10px;
+      opacity: 0.7;
+      margin-left: -111px;
+      margin-right: -106px;
+      font-family: var(--heading-font);
+            }
+
+    .art p {
+      color: var(--accent1-color);
+    }        
+
+    .art img {
+      float: right;
+      margin-left: 25px;
+      opacity:12;
+    }
    
  
