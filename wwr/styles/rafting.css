@@ -66,7 +66,7 @@
          }
 
     .art h1 {
-      color: var(--accent2-color);
+      color: var(--nav-hover-link-color);
       position: absolute;
       right: 10px;
       left: 20px;
