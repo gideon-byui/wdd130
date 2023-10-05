@@ -78,17 +78,20 @@ aside {
 
 aside h2 {
   position: absolute;
-  top: -0.1em; 
+  top: 0.4rem; 
   left: 79px;
   font-size:medium ;
 } 
 
-aside img {width: 200px; height: auto;}
+aside img {
+  width: 200px; 
+  height: auto;
+  margin-top: 1rem;
+}
 
 .aside p{
 padding: 1rem;
     }
-
 
 footer{ 
     margin-top: 1em; 
