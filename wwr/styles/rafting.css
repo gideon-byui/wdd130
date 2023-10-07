@@ -144,8 +144,8 @@
         margin-right: -204px; 
         font-weight: 900;
         text-align: center;
-        background-color: var(--accent1-color);
-        opacity: 0.9;
+        background-color: var(--primary-color);
+        opacity: 0.8;
         font-weight: bolder;
         font-size: 30px;
       }
@@ -195,7 +195,10 @@
           padding-left: -10rem;
           margin-left: -21px;
           margin-right: -5px;
+          color: var(--accent1-color);
+          font-size: 1rem;
         }
+
 
     footer {
       background-color: var(--nav-background-color);
