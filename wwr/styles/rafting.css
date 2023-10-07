@@ -170,7 +170,7 @@
       .heroc {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 10px;
+        gap: 30px;
         padding:90px;
         background-color: #15616d;
         width: 1350px;
@@ -189,6 +189,12 @@
           margin-bottom: 70px;
           margin-left: -5rem;
           color: var(--secondary-color);
+        }
+
+        .heroc figure {
+          padding-left: -10rem;
+          margin-left: -21px;
+          margin-right: -5px;
         }
 
     footer {
