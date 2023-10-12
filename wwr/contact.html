@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Whales Rafting Contact Us Page</title>
+    <meta name="description" content="Big Whales Rafting Contact Page. For Reservation and Enquiries Contact Us Now!">
+    <meta name="author" content=" Gideon Tetteh Sabbah">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <img src="images/bigwhales-logo.png" alt="My Logo" width="80">
+        <nav class="hov">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <div class="img">
+                <figure><img src="images/happyworker1.jpg" alt="happyworker1 image1" width="130"> <figcaption>Kayak Instructor</figcaption> </figure>
+                <figure><img src="images/happyworker2.jpg" alt="happyworker2 image2" width="130"> <figcaption>Raft Guide</figcaption> </figure>
+                </div>
+
+                <div class="imga">
+                <figure><img src="images/happyworker3.jpg" alt="happyworker3 imgage3" width="130"> <figcaption>Raft Supervisor</figcaption> </figure>
+                </div>
+
+                <div class="comment">
+                    <label for="comment">Leave a Comment:</label>
+                    <textarea id="comment" name="comment" required></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+              
+
+            </div>
+
+            <div class="contact-form">
+
+                <h2>Contact Form</h2>
+                <form action="process_contact_form.php" method="POST">
+
+                    <div class="form-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-item">
+                   <label for="Purpose">Purpose:</label>
+                   <select id="Purpose" name="Purpose">
+                   <option value="" selected disabled>Choose One ...</option>
+                   <option value="chrome">General Inquiry</option>
+                   <option value="firefox">Reservation</option>
+                   <option value="safari">Website Suggestion</option>
+                   </select>
+                    </div>
+                    
+                    <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required rows="5"></textarea>
+                    </div>
+                    
+                   
+                    
+                    <div class="form-item position">
+                    <label for="Subscibe">Please subscribe me to the monthly newsletter</label>
+                    <div class="position1">
+                    <input type="checkbox" id="Subscibe" name="Subscibe">
+                    </div>
+
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="contactinfo">
+            <h2 class="h2">Contact Information</h2>
+            <p>Email: <a href="mailto:reservation@bigwhaleslc.com">reservation@bigwhaleslc.com</a></p>
+            <p>Phone: <a href="tel:+1254891490">+1 (254) 891-490</a></p>
+            <p>Address: 2000 Devereux Rd, Glenwood Springs, CO 81601-8719, US</p> 
+           </div>
+
+           <div class="map">
+            <iframe src="https://bit.ly/3RRlLUl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+
+    </main>
+
+    <footer>
+        <p>©2024 • Big Whales Rafting •  Gideon Tetteh Sabbah</p>
+        
+            <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/facebook.1.png" alt="Facebook" width="18"></a>
+
+                <a href="https://twitter.com"><img src="images/x.3.png" alt="X" width="18"></a>
+
+                <a href="https://instagram.com"><img src="images/instagram.2.png" alt="Instagram" width="18"></a>
+              </nav>
+    </footer>
+
+</body>
+</html>
