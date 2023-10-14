@@ -152,6 +152,13 @@ margin-right: 5em;
 margin-top: -2em;
 }
 
+p {
+    color: #fca311;
+    font-weight: 700;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
 .img {
 display: grid;
 grid-template-columns: 0fr 0fr;
@@ -226,7 +233,7 @@ button:hover {
  }
 
  
- footer p {
+ footer P {
     text-decoration: none;
     color: var(--accent1-color); 
     font-size: 1rem;
