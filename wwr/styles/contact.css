@@ -152,12 +152,13 @@ margin-right: 5em;
 margin-top: -2em;
 }
 
-p {
+
+ .g{
     color: #fca311;
     font-weight: 700;
     margin-top: -1em;
     margin-bottom: -1em;
-}
+} 
 
 .img {
 display: grid;
