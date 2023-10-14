@@ -140,17 +140,29 @@ margin-right: -1em;
 margin-left: -9em;
 }
 
+.position2 {
+grid-template-columns: 0.9fr 0fr;
+margin-bottom: -2em;
+color: #ccc;
+font-weight: 600; 
+}
+
+.position3 {
+margin-right: 5em;
+margin-top: -2em;
+}
+
 .img {
 display: grid;
 grid-template-columns: 0fr 0fr;
-margin-top: 0.9em;
+margin-top: 11em;
 margin-left: -5em;
 }
 
 .imga {
 display: flex;
 justify-content: center;
-margin-left:-12.5em;
+margin-left:-5.5em;
 }
 
 .contactinfo {
@@ -164,6 +176,7 @@ justify-content: center;
 margin-left: 0.7em;
 }
 
+/*
 .comment {
 display: grid;
 margin: 1em;
@@ -172,6 +185,7 @@ margin-top: 1em;
 color:#fca311;
 font-weight: 700;
 }
+*/
 
 .comment label {
 margin-left: 0.9em;
