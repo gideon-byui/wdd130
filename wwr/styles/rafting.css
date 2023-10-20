@@ -63,6 +63,8 @@ header nav {
     font-family: var(--heading-font);
     text-align: center;
     padding: 1.2rem;
+    font-size: 40px;
+    font-weight: 700;
     }
      
   .hero {
@@ -88,7 +90,7 @@ header nav {
         color: var(--nav-hover-link-color);
         position: absolute;
         right: 100px;
-        left: 450px;
+        left: 340px;
         bottom: 250px;
         background-color: black ;
         padding: 10px;
@@ -116,6 +118,7 @@ header nav {
 .h2 {
 font-family: var(--heading-font);
 color: #fca311;
+font-weight: 700;
   }
 
 .herob {
@@ -185,7 +188,6 @@ padding:90px;
     font-weight: 1000; 
     grid-column: 1/6;
     margin-bottom: 70px;
-    margin-left: 0.1rem;
     color: var(--secondary-color);
     font-family: var(--heading-font);
     font-size: 40px;
@@ -237,3 +239,175 @@ footer {
     footer a:hover {
     color: #fb8500;
     } 
+
+
+    /*-------------------------------------------------------Contact Us CSS-----------------------------------------------------*/
+
+
+    figure {
+      color: #e5e5e5;
+      font-weight: 700;
+  }
+  
+  a[href^="tel:"] {
+      color: #fca311; 
+  }
+  
+  a[href^="mailto:"] {
+      color: #fca311; 
+  }
+  
+  h2 {
+  font-family: 'Quicksand';    
+  font-weight: 700;
+  color: #fca311;
+  }
+  
+  .ch1 {
+      font-family: 'Quicksand';    
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      font-size: 40px;
+      margin-top: -1em;
+  } 
+  
+  .ch2 {
+      font-family: 'Quicksand';    
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 30px;
+  } 
+  
+  p {
+   color: #ffffff;
+   font-weight: 500;   
+  }
+  
+  .main2 {
+      max-width: 2000px;
+      margin: 0 auto;
+      padding: 5em;
+      background-color: #15616d;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  } 
+  
+  .contact-container {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .contact-info{
+      flex: 1;
+      padding: 1em;
+  }
+  
+  .contact-form {
+      flex: 1;
+      padding: 1em;
+      margin-right: 1em;
+      color: #fca311;
+      font-weight: 700;
+  }
+  
+  .form-item {
+      display: grid;
+      align-items: center;
+      padding: 0.5rem;
+    }
+  
+  .position {
+  grid-template-columns: 3fr 0fr;
+  }
+  
+  .position1{
+  margin-right: -1em;
+  margin-left: -9em;
+  }
+  
+  .position2 {
+  grid-template-columns: 0.9fr 0fr;
+  margin-bottom: -2em;
+  color: #ccc;
+  font-weight: 600; 
+  }
+  
+  .position3 {
+  margin-right: 5em;
+  margin-top: -2em;
+  }
+  
+  
+   .g{
+      color: #fca311;
+      font-weight: 700;
+      margin-top: -1em;
+      margin-bottom: -1em;
+  } 
+  
+  .img {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  margin-top: 11em;
+  margin-left: -5em;
+  }
+  
+  .imga {
+  display: flex;
+  justify-content: center;
+  margin-left:-14em;
+  }
+  
+  .contactinfo {
+  margin-top: 3em;
+  text-align: center;
+  }
+  
+  .map{
+  display: flex;
+  justify-content: center;
+  margin-left: 0.7em;
+  }
+  
+  /*
+  .comment {
+  display: grid;
+  margin: 1em;
+  margin-left: -4em;
+  margin-top: 1em;
+  color:#fca311;
+  font-weight: 700;
+  }
+  */
+  
+  .comment label {
+  margin-left: 0.9em;
+  }
+  
+  label {
+      margin-bottom: 0.5em;
+  }
+  
+  input, textarea {
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+  }
+  
+  button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 0.7em 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      margin-left: 0.6rem;
+  }
+  
+  button:hover {
+   background-color: #fb8500;
+  }
+  
