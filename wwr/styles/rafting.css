@@ -1,7 +1,7 @@
 @import url(' https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300;400&display=swap');
 
 :root {
-    --primary-color: #14213d;
+    --primary-color: #284b63;
     --secondary-color:#fca311;
     --accent1-color: #e5e5e5;
     --accent2-color: #ffffff;
@@ -9,10 +9,10 @@
     --heading-font: ' Quicksand ';
     --paragraph-font: 'Roboto';
   
-    --nav-background-color: #14213d;
+    --nav-background-color: #284b63;
     --nav-link-color: #ffffff;
     --nav-hover-link-color: #fca311;
-    --nav-hover-background-color: #14213d;
+    --nav-hover-background-color: #284b63;
   }
 
 body {
@@ -27,7 +27,6 @@ header {
    /* color: #fff;*/
     text-align: center;
     padding: 1em; 
-
     background-color: var(--nav-background-color);
    /* padding: 0.7rem 0 0.7rem 0; */
     padding-left: 4rem;
@@ -48,8 +47,9 @@ header nav {
     padding: 1rem 3rem 1rem 3rem;
     text-decoration: none;
     color: white; 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
+    font-family: var(--heading-font);
       }
    
       
@@ -76,14 +76,15 @@ header nav {
 
       article {
         position: absolute;
-        top: 40px;
+        top: 4px;
         right: 15px;
         margin-top: 120px;
         text-align: justify;
-        background-color: #14213d;
+        background-color: var(--primary-color);
         padding: 20px;
-        opacity: 0.9;
-        margin-right: -15px;
+        opacity: 0.8;
+        margin-right: 200px;
+        margin-left: 200px;
            }
   
       .art h1 {
@@ -91,13 +92,12 @@ header nav {
         position: absolute;
         right: 100px;
         left: 340px;
-        bottom: 250px;
+        bottom: 280px;
         background-color: black ;
         padding: 10px;
-        padding-left: 7.2em;
         margin-bottom: 20px;
         opacity: 0.9;
-        margin-left: -645px; 
+        margin-left: -341px; 
         margin-right: -100px; 
         font-family: var(--heading-font);
               }
@@ -117,7 +117,7 @@ header nav {
 
 .h2 {
 font-family: var(--heading-font);
-color: #fca311;
+color: #353535;
 font-weight: 700;
   }
 
@@ -125,31 +125,29 @@ font-weight: 700;
     position: relative;
     display: block;
     height: auto;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     width: 100%;
-    margin-top: -1em;
+    margin-top: -5em;
     }
 
 .history {
 display: grid;
 grid-template-columns: 1fr 1fr 0fr;
-background-color: #0e1111;
+background-color: var(--accent2-color);
 padding: 2em;
 align-items: center;
 position: absolute;
 right: 0px; 
 left: 0px; 
-bottom: 555px;
-opacity: 0.9;
+bottom: 520px;
 font-weight: bolder;
 font-size: 25px;
-border-top: 1px solid var(--accent2-color); 
 }
 
 
 .history img {
-box-shadow: 0 0 10px var(--accent2-color);
-border: 1px solid var(--accent2-color);
+box-shadow: 0 0 5px var(--accent1-color);
+border: 1px solid #353535;
 }
 
 .pg {
@@ -160,7 +158,7 @@ opacity: 0.9;
 border-top: 1px solid var(--accent2-color);
 border-bottom: 1px solid var(--accent2-color);
 height: auto;
-padding-top: 100px;
+padding-top: 69px;
 padding-bottom: 100px;
 }
 
@@ -174,10 +172,10 @@ color: var(--accent2-color);
 /*--------------------------------------------------------Section2--------------------------------------------------------------*/
 
 .heroc {
-background-color: #0e1111;
+background-color: var(--accent2-color);
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-gap: 30px;
+gap: 40px;
 padding:90px;   
 }
 
@@ -188,26 +186,26 @@ padding:90px;
     font-weight: 1000; 
     grid-column: 1/6;
     margin-bottom: 70px;
-    color: var(--secondary-color);
+    color: #353535;
     font-family: var(--heading-font);
     font-size: 40px;
   }
 
   .heroc figure {
-margin-left: -24px;
+margin-left: -31px;
 margin-right: -5px;
-color: var(--accent1-color);
+color: #353535;
 font-size: 1rem;
-box-shadow: 0 0 9px var(--accent2-color);
+box-shadow: 0 0 5px var(--secondary-color);
 border: 1px solid var(--accent2-color);
   }
 
 
-    /*-------------------------------------------------------Contact Us CSS-----------------------------------------------------*/
+    /*-------------------------------------------------------CONTACT US PAGE CSS-----------------------------------------------------*/
 
 
     figure {
-      color: #e5e5e5;
+      color: #353535;
       font-weight: 700;
   }
   
@@ -222,27 +220,26 @@ border: 1px solid var(--accent2-color);
   h2 {
   font-family: 'Quicksand';    
   font-weight: 700;
-  color: #fca311;
+  color: #353535;
   }
   
   .ch1 {
-      font-family: 'Quicksand';    
+      font-family: var(--heading-font);    
       font-weight: 700;
       text-align: center;
-      color: #ffffff;
-      font-size: 40px;
+      color: #353535;
+      font-size: 38px;
       margin-top: -1em;
   } 
   
   .ch2 {
-      font-family: 'Quicksand';    
+      font-family: var(--heading-font);    
       font-weight: 700;
-      color: #ffffff;
-      font-size: 30px;
+      color: #353535;
+      font-size: 38px;
   } 
   
   p {
-   color: #ffffff;
    font-weight: 500;   
   }
   
@@ -250,7 +247,7 @@ border: 1px solid var(--accent2-color);
       max-width: 2000px;
       margin: 0 auto;
       padding: 5em;
-      background-color: #15616d;
+      background-color: var(--accent2-color);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   } 
   
@@ -284,13 +281,13 @@ border: 1px solid var(--accent2-color);
   
   .position1{
   margin-right: -1em;
-  margin-left: -25em;
+  margin-left: -24em;
   }
   
   .position2 {
   grid-template-columns: 0.9fr 0fr;
   margin-bottom: -2em;
-  color: #ccc;
+  color: #353535;
   font-weight: 600; 
   }
   
@@ -300,7 +297,7 @@ border: 1px solid var(--accent2-color);
   }
   
   
-   .g{
+   .purpose{
       color: #fca311;
       font-weight: 700;
       margin-top: -1em;
@@ -359,24 +356,141 @@ border: 1px solid var(--accent2-color);
   }
   
   button {
-      background-color: #333;
+      background-color: #353535;
       color: #fff;
       border: none;
       padding: 0.7em 1em;
       border-radius: 5px;
       cursor: pointer;
-      width: 100%;
-      margin-left: 0.6rem;
+      width: 150px;
+      margin-left: 15rem;
   }
   
   button:hover {
-   background-color: #fb8500;
+   background-color: #fca311;
   }
 
 figcaption {
 text-align: center;
 }
-  
+
+/*-----------------------------------------------------------TRIPS PAGE CSS------------------------------------------------------------*/
+
+.introh1 {
+position: absolute;
+top: 189px;
+left: 477px;
+font-family: var(--heading-font);
+font-size: 60px;
+font-weight: 700;
+color: var(--accent2-color);
+}
+
+.section1 {
+position: absolute;
+background-color: var(--accent2-color);
+top: 400px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 0 0 80px 0; 
+}
+
+.section1 h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 1000; 
+  grid-column: 1/6;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  color: #353535;
+  font-family: var(--heading-font);
+  font-size: 40px;  
+}
+
+.section1img {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 40px;
+margin-left: 70px;
+}
+
+.figcaption {
+color: #0e1111;
+}
+
+.book-button {
+width: 150px;
+padding: 20px;
+margin-left: 110px;
+}
+
+/*-------------------------------------------------------Sec2--------------------------------------------------------*/
+.section2 {
+background-color: var(--accent2-color);
+width: 1349.2px;
+margin-top: 270px;
+padding: 60px 0 80px 0;
+}
+
+.section2 h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 1000; 
+  grid-column: 1/6;
+  margin-bottom: 90px;
+  margin-top: 30px;
+  color: #353535;
+  font-family: var(--heading-font);
+  font-size: 40px;
+  margin-left: 0.5em;  
+}
+
+.tble {
+margin-left: 210px;
+margin-right: 210px;
+}
+
+table, td {
+  border: 1px solid var(--nav-hover-link-color);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0em;
+}
+
+.td1 {
+  background-color: #353535;
+  color: #fff;
+  padding: 0 1em;
+}
+
+.td3 {
+  background-color: #353535;
+  color: #fff;
+  padding: 0 1em;
+}
+
+.td5{
+  background-color: #353535;
+  color: #fff;
+  padding: 0 1em;
+}
+
+.contact-us-button a {
+padding: 20px;
+width: 130px;
+margin-left: 619px;
+color: var(--accent2-color);
+background-color: #353535;
+}
+
+.contact-us-button {
+margin-top: 75px;
+}
+
+
+
 /*-------------------------------------------------------------Footer----------------------------------------------------*/
 
 footer {
@@ -392,7 +506,8 @@ footer P {
   font-size: 1rem;
   font-weight: 500;
   text-align: center;
-  margin-right: -7rem;
+  margin-left: 13em;
+  color: var(--accent2-color);
    }
    
    .sociallinks {
@@ -410,7 +525,7 @@ footer P {
    }
 
   footer a:hover {
-  color: #fb8500;
+  color: var(--nav-hover-link-color);
   } 
 
   
