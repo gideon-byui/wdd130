@@ -321,11 +321,21 @@ margin-left: 100px;
   margin-top: 11em;
   margin-left: -5em;
   }
+
+  .img img {
+    box-shadow: 0 0 5px var(--accent1-color);
+    border: 1px solid #353535;
+  }
   
   .imga {
   display: flex;
   justify-content: center;
   margin-left:-14em;
+  }
+
+  .imga img {
+    box-shadow: 0 0 5px var(--accent1-color);
+    border: 1px solid #353535;
   }
   
   .contactinfo {
@@ -423,6 +433,11 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 40px;
 margin-left: 70px;
+}
+
+.section1img img {
+  box-shadow: 0 0 5px var(--accent1-color);
+  border: 1px solid #353535;
 }
 
 .figcaption {
@@ -585,6 +600,11 @@ text-align: center;
 display: grid;
 grid-template-columns: 0.5fr 0.5fr;
 text-align: center;
+}
+
+.home-page-section2fig img {
+  box-shadow: 0 0 5px var(--accent1-color);
+  border: 1px solid #353535;
 }
 
 .form form {
