@@ -355,7 +355,7 @@ margin-left: 100px;
   }
   
   label {
-      margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
   }
   
   input, textarea {
@@ -563,10 +563,13 @@ margin-bottom: 60px;
 }
 
 .home-page-section2 {
-text-align: center;
 background-color: var(--accent2-color);
 margin-top: 50px;
 padding-bottom: 4em;
+}
+
+.home-page-section2 h2 {
+text-align: center;
 }
 
 .home-page-section2 h2 {
@@ -581,6 +584,7 @@ padding-bottom: 4em;
 .home-page-section2fig {
 display: grid;
 grid-template-columns: 0.5fr 0.5fr;
+text-align: center;
 }
 
 .form form {
@@ -593,6 +597,7 @@ grid-template-columns: 0.5fr 0.5fr;
 
 .form input {
 margin-left: -0.5em;
+margin-top: 0.5em;
 }
 
 .form button {
@@ -600,17 +605,14 @@ justify-content: center;
 margin-left: -0.1em;
 }
 
+.formlabel1 label {
+margin-left: -0.2em;
+} 
 
-
-
-
-
-
-
-
-
-
-
+.butt {
+text-align: center;
+margin-top: 1em;
+}
 
 /*-------------------------------------------------------------Footer----------------------------------------------------*/
 
