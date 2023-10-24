@@ -399,7 +399,7 @@ color: var(--accent2-color);
 
 .section1 {
 position: absolute;
-background-color: var(--accent1-color);
+background-color: #f4f4f4;;
 top: 400px;
 display: grid;
 grid-template-columns: 1fr 1fr;
